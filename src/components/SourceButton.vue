@@ -9,9 +9,9 @@
 			class="
 				text-xl
 				fill-current
-				text-discord-blurple-530
-				hover:text-discord-blurple-500
-				dark:text-discord-blurple-330 dark:hover:text-discord-blurple-300
+				text-propresenter-530
+				hover:text-propresenter-500
+				dark:text-propresenter-330 dark:hover:text-propresenter-300
 			"
 			aria-hidden="true"
 		/>

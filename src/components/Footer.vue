@@ -1,5 +1,5 @@
 <template>
-	<footer class="bg-discord-blurple-560">
+	<footer class="bg-propresenter-600">
 		<div class="max-w-3xl mx-auto text-center px-16 pt-10 pb-4 text-gray-200">
 			<strong><router-link to="/">ProPresenterJS</router-link></strong>
 			<p class="mb-4">A powerful library for interacting with the Discord API</p>

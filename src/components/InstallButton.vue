@@ -1,6 +1,6 @@
 <template>
-	<code class="text-gray-200 bg-discord-blurple-560 p-4 md:text-lg mx-auto rounded-md shadow flex items-center"
-		><span class="hover:text-white mr-2">npm install ProPresenterJS</span>
+	<code class="text-gray-200 bg-propresenter-600 p-4 md:text-lg mx-auto rounded-md shadow flex items-center"
+		><span class="hover:text-white mr-2">npm install propresenter</span>
 		<button ref="copyButton" class="focus:outline-none" aria-label="Copy install command">
 			<heroicons-outline-clipboard-copy
 				v-if="!copied"
@@ -10,7 +10,7 @@
 			/>
 			<heroicons-outline-clipboard-check
 				v-else
-				class="inline-block fill-current text-discord-green-500 cursor-pointer mb-1"
+				class="inline-block fill-current text-green-500 cursor-pointer mb-1"
 				aria-hidden="true"
 				@click="copyInstallCmd"
 			/>
@@ -39,7 +39,7 @@ const { show: showTooltip, hide: hideTooltip } = useTippy(copyButton, {
 
 const copyInstallCmd = async () => {
 	try {
-		await navigator.clipboard.writeText('npm install ProPresenterJS');
+		await navigator.clipboard.writeText('npm install propresenter');
 		showTooltip();
 	} catch {}
 

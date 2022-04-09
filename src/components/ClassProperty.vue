@@ -9,18 +9,18 @@
 			<span class="space-x-2 text-gray-200 text-sm font-semibold uppercase pt-6">
 				<span
 					v-if="prop.scope === 'static'"
-					class="inline-flex items-center px-2.5 py-0.5 rounded-md bg-discord-blurple-500"
+					class="inline-flex items-center px-2.5 py-0.5 rounded-md bg-propresenter-500"
 					>Static</span
 				>
-				<span v-if="prop.readonly" class="inline-flex items-center px-2.5 py-0.5 rounded-md bg-discord-blurple-500"
+				<span v-if="prop.readonly" class="inline-flex items-center px-2.5 py-0.5 rounded-md bg-propresenter-500"
 					>Read-only</span
 				>
-				<span v-if="prop.deprecated" class="inline-flex items-center px-2.5 py-0.5 rounded-md bg-discord-red-500"
+				<span v-if="prop.deprecated" class="inline-flex items-center px-2.5 py-0.5 rounded-md bg-red-500"
 					>Deprecated</span
 				>
 				<span
 					v-if="prop.access === 'private'"
-					class="inline-flex items-center px-2.5 py-0.5 rounded-md bg-discord-red-500"
+					class="inline-flex items-center px-2.5 py-0.5 rounded-md bg-red-500"
 					>Private</span
 				>
 			</span>

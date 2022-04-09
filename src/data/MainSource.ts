@@ -5,8 +5,8 @@ import DocsSource from './DocsSource';
 const branchBlacklist = new Set(['docs', 'webpack', 'v8']);
 export default new DocsSource({
 	id: 'ProPresenterJS',
-	name: 'Discord',
-	global: 'Discord',
+	name: 'ProPresenterJS',
+	global: 'ProPresejterJS',
 	docsRepo: 'propresenterjs/docs',
 	repo: 'propresenterjs/propresenter',
 	defaultTag: 'master',

@@ -3,9 +3,9 @@
 		<div class="px-6 lg:px-8">
 			<button
 				class="
-					bg-discord-blurple-500
-					hover:bg-discord-blurple-530
-					dark:hover:bg-discord-blurple-560
+					bg-propresenter-500
+					hover:bg-propresenter-530
+					dark:hover:bg-propresenter-600
 					text-gray-200
 					hover:text-white
 					rounded-md
