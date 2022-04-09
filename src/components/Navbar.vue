@@ -20,7 +20,7 @@
 						"
 						active-class="bg-discord-blurple-600"
 					>
-						discord.js
+						ProPresenterJS
 					</router-link>
 
 					<router-link
@@ -278,7 +278,7 @@
 								font-semibold
 							"
 							@click="isOpen = !isOpen"
-							>discord.js</router-link
+							>ProPresenterJS</router-link
 						>
 
 						<router-link

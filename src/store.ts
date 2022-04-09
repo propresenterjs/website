@@ -92,9 +92,9 @@ export const store = createStore<State>({
 			const noop = () => {};
 
 			const [fetchedDownloads, fetchedStars, fetchedContributors] = await Promise.all([
-				fetch('https://api.npmjs.org/downloads/range/2013-08-21:2100-08-21/discord.js').then(toJSON, noop),
-				fetch('https://api.github.com/repos/discordjs/discord.js').then(toJSON, noop),
-				fetch('https://api.github.com/repos/discordjs/discord.js/stats/contributors').then(toJSON, noop),
+				fetch('https://api.npmjs.org/downloads/range/2013-08-21:2100-08-21/ProPresenterJS').then(toJSON, noop),
+				fetch('https://api.github.com/repos/discordjs/ProPresenterJS').then(toJSON, noop),
+				fetch('https://api.github.com/repos/discordjs/ProPresenterJS/stats/contributors').then(toJSON, noop),
 			]);
 
 			if (fetchedDownloads) {

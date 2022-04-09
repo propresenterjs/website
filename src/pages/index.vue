@@ -22,7 +22,7 @@
 			<h2>About</h2>
 			<h3>Imagine a bot</h3>
 			<p>
-				discord.js is a powerful
+				ProPresenterJS is a powerful
 				<a href="https://nodejs.org" target="_blank" rel="noopener"
 					>Node.js <heroicons-outline-external-link class="h-5 w-5 inline-block mb-1" aria-hidden="true"
 				/></a>
@@ -34,8 +34,8 @@
 				bot's code significantly tidier and easier to comprehend.
 			</p>
 			<p>
-				Usability, consistency, and performance are key focuses of discord.js, and it also has nearly 100% coverage of
-				the Discord API. It receives new Discord features shortly after they arrive in the API.
+				Usability, consistency, and performance are key focuses of ProPresenterJS, and it also has nearly 100% coverage
+				of the Discord API. It receives new Discord features shortly after they arrive in the API.
 			</p>
 		</div>
 		<div>
